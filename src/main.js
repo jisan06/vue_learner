@@ -6,6 +6,11 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+Vue.component('test_component', {
+  props: ['blood_group'],
+  template: '<span>This is from test component . Blood Group is: {{blood_group}}</span>'
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
