@@ -34,7 +34,6 @@ export default {
         'Mounted',
         'Before Update',
         'Updated',
-        'Methods'
       ]
     }
   }
